@@ -1,0 +1,11 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
+    grid-template-rows: repeat(2, 400px);
+    gap: 30px;
+}
+
+img {
+    width: 500px;
+    height: 400px;
+}
